@@ -1,7 +1,10 @@
 <ion-view >
   <ion-content>
-  <section ng-repeat="albums in AlbumInfo">
-    <a href="">{{albums.name}}</a>
+  <section ng-repeat="albums in AlbumInfo" class="albuns">
+    <a ui-sref="tab.tracks({trackId: albums.id})">
+      {{albums.name}}
+      <img src="{{images.url}}" ng-repeat="images in albums.images" ng-show="$first">
+    </a>
   </section>
   </ion-content>
 </ion-view>

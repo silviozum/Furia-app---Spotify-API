@@ -21,3 +21,32 @@ a {
 .results{
 	margin: 10px 0;
 }
+nav li{
+	list-style: none;
+}
+
+.albuns {
+	display: block;
+	margin: 20px 0;
+	text-align: center;
+	border-bottom:  1px solid #c1c1c1;
+	padding-bottom: 20px;
+}
+.albuns img{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.albuns a {
+	font-size: 18px;
+	display: block;
+}
+.tracks{
+	padding: 10px;
+}
+.tracks li{
+	margin: 10px;
+	display: block;
+}

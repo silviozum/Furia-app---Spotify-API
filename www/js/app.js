@@ -58,16 +58,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', '
           controller: 'ChatsCtrl'
         }
       }
-    })  
+    }) 
+     
   .state('tab.tracks', {
-      url: '/chats/:id',
+      url: '/tracks/:trackId',
       views: {
-        'tab-chats': {
-          templateUrl: 'templates/tab-chats.html',
-          controller: 'ChatsCtrl'
+        'tab-tracks': {
+          templateUrl: 'templates/tab-account.html',
+          controller: 'TracksCtrl'
         }
       }
-    })
+    });
 
 
   // if none of the above states are matched, use this as the fallback

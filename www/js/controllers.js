@@ -20,9 +20,21 @@ angular.module('starter.controllers', [])
   $scope.ArtistId = $stateParams.id;
   
   Spotify.getArtistAlbums( $scope.ArtistId ).then(function (data) {
-    console.log(data.items);
+
     $scope.AlbumInfo = data.items;
+    console.log(data.items);
   }); 
 })
+
+.controller('TracksCtrl', function($scope,$stateParams,Spotify) {
+
+  $scope.AlbumId = $stateParams.trackId;
+  
+  Spotify.getAlbumTracks( $scope.AlbumId).then(function (data) {
+    $scope.TracksName = data.items;
+  });
+ 
+})
+
 
 
