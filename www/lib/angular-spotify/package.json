@@ -1,0 +1,108 @@
+{
+  "_args": [
+    [
+      "angular-spotify",
+      "/home/hitsugaya/dev/furia"
+    ]
+  ],
+  "_from": "angular-spotify@latest",
+  "_id": "angular-spotify@1.4.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular-spotify",
+  "_nodeVersion": "6.2.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular-spotify-1.4.1.tgz_1464679796465_0.495806499151513"
+  },
+  "_npmUser": {
+    "email": "eddie.moore@gmail.com",
+    "name": "eddiemoore"
+  },
+  "_npmVersion": "3.9.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "angular-spotify",
+    "raw": "angular-spotify",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular-spotify/-/angular-spotify-1.4.1.tgz",
+  "_shasum": "36146a822f298baa31470818697be193e72c7920",
+  "_shrinkwrap": null,
+  "_spec": "angular-spotify",
+  "_where": "/home/hitsugaya/dev/furia",
+  "author": {
+    "name": "Ed Moore"
+  },
+  "bugs": {
+    "url": "https://github.com/eddiemoore/angular-spotify/issues"
+  },
+  "dependencies": {},
+  "description": "Angular Service to connect to Spotify Web API",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "coveralls": "^2.11.9",
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-concat": "~1.0.0",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-karma": "^0.12.2",
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "karma": "~0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.25",
+    "load-grunt-tasks": "^3.4.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "time-grunt": "^1.3.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "36146a822f298baa31470818697be193e72c7920",
+    "tarball": "https://registry.npmjs.org/angular-spotify/-/angular-spotify-1.4.1.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "6399caf861847410c095651759c8b6f2876ebe04",
+  "homepage": "https://github.com/eddiemoore/angular-spotify",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "spotify"
+  ],
+  "license": "MIT",
+  "main": "src/angular-spotify.js",
+  "maintainers": [
+    {
+      "name": "eddiemoore",
+      "email": "eddie.moore@gmail.com"
+    }
+  ],
+  "name": "angular-spotify",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddiemoore/angular-spotify.git"
+  },
+  "scripts": {
+    "codecov": "codecov",
+    "coveralls": "cat ./test/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "prepublish": "grunt",
+    "test": "grunt test"
+  },
+  "version": "1.4.1"
+}

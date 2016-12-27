@@ -1,0 +1,12 @@
+<ion-view>
+  <ion-content class="padding">
+    
+    <form ng-submit="SearchQuery()" class="search-term">
+      <input type="text" placeholder="Buscar"  ng-model="search.term">
+      <button type="submit">Buscar</button>  
+     </form>
+
+     <a ui-sref="tab.chats({id: ArtistSearch.id})"  ng-repeat="ArtistSearch in ItemsSearch" class="results">
+      {{ArtistSearch.name}} 
+     <a> 
+</ion-view>

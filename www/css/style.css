@@ -1,0 +1,23 @@
+/* Empty. Add your own CSS if you like */
+a {
+	display: block;
+	text-decoration: none;
+}
+.search-term {
+	display: block;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.search-term input{
+	border: 1px solid #000;
+	width: 60%;
+	border-radius: 5px;
+	text-indent: 12px;
+	display: inline-block;
+}
+.search-term button{
+	display: inline-block;
+}
+.results{
+	margin: 10px 0;
+}
